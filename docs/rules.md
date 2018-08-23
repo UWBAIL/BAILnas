@@ -26,7 +26,7 @@ R/W: system admin, R/- : BAIL_member (read only)
 
 R/W: BAIL_member
 
-## BAILnas/NAS/Yourname.p/priv
+## BAILnas/NAS/Yourname.p/0priv
 
 R/W: Yourself
 
