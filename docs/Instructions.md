@@ -31,6 +31,14 @@ Please follow the instructions below to mount BAILnas as network drive:
 3. Enter your username and password, then click "OK".
 4. The NAS drive will appear as "NAS" on your desktop and Finder.
 
+## Mobile devices
+
+### Android users
+
+Download Solid Explorer (or any alternative remote file explorer),
+
+use the following address for SFTP access: `sftp://nas.bail.bioeng.washington.edu:2221`
+
 ---
 
 # Access from anywhere else
