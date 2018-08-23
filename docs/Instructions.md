@@ -19,9 +19,7 @@ Please follow the instructions below to mount BAILnas as network drive:
 
 * Alternatively, if you prefer not to use windows commands, please download and run the shortcut executables below:
 
-    <a href="/res/connect-NAS.bat" download>	Click to Download connect-NAS.bat</a>
-
-    	<a href="/res/connect-Data.bat" download>	Click to Download connect-Data.bat</a>
+    <a href="/res/connect-NAS+Data.bat" download>	Click to Download connect-NAS+Data.bat</a>
 
 ## Mac OS 
 
