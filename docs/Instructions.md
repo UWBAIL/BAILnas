@@ -21,7 +21,7 @@ Please follow the instructions below to mount BAILnas as network drive:
 
     click to download: <a href="https://uwbail.github.io/BAILnas/res/connect-NAS+Data.bat" download>connect-NAS+Data.bat</a>
 
-    		note: if this executable is blocked by Windows Defender/Smartscreen etc., just click "more info" and the option for "run anyway" will appear.
+    note: if this executable is blocked by Windows Defender/Smartscreen etc., just click "more info" and the option for "run anyway" will appear.
 
 ## Mac OS 
 
