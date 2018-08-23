@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
+        
+        <link rel="shortcut icon" href="/img/favicon.ico">
         <title>BAILnas</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="/js/jquery-1.10.2.min.js" defer></script>
+        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,21 +39,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">BAILnas</a>
+                    <a class="navbar-brand" href="/.">BAILnas</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Welcome</a>
+                            <li >
+                                <a href="/.">Welcome</a>
                             </li>
                             <li >
-                                <a href="Instructions/">Instructions</a>
+                                <a href="/Instructions/">Instructions</a>
                             </li>
                             <li >
-                                <a href="rules/">Rules of Use</a>
+                                <a href="/rules/">Rules of Use</a>
                             </li>
                         </ul>
 
@@ -63,69 +63,21 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="Instructions/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome">Welcome</a></li>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#disclaimer">Disclaimer</a></li>
-        <li class="main "><a href="#contact">Contact</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
 
-<h1 id="welcome">Welcome</h1>
-<p>BAILnas is a Network Attached Storage(NAS) server provided by UW BAIL(Biophotonics And Imaging Lab). </p>
-<ul>
-<li>Please make sure to read <strong>Rules of Use</strong> and <strong>Disclaimer</strong>(below) before using the server.</li>
-</ul>
-<h2 id="introduction">Introduction</h2>
-<p>BAILnas is an Enterprise-grade NAS. It has the following features:</p>
-<ul>
-<li>Large, scalable storage:<ul>
-<li>24 * 10TB redundant disk array, 178 TB usable disk space.</li>
-<li>16 * 8TB individually addressed archival hard-drives.</li>
-<li>Expandable in forms of server cluster.</li>
-</ul>
-</li>
-<li>Redundancy protection: <ul>
-<li>NAS data is protected by RAIDZ1 redundant disk array. </li>
-<li>Current configurations allows up to 3 out of 24 drives to fail without any data loss.</li>
-<li>Server has redundant power supply and generator-backed UPS to gurantee 24x7x365 operations</li>
-<li>In case of hard-disk/power failure, the server will continue to function in a degraded state interuptions. </li>
-</ul>
-</li>
-<li><strong>Data recovery:</strong><ul>
-<li>All data in the NAS folder is backed-up by snapshots every 6 hours during working hours.</li>
-<li>In case of mannual errors such as unintended deletes, any folder can be rollded back to any snapshots within the past two weeks.</li>
-<li>Snapshot roll-backs are available upon request. Please contact <a href="szsong@uw.edu">system admin</a>.</li>
-</ul>
-</li>
-<li>High-speed input/output (i/o):<ul>
-<li>BAILnas is connected to UW network with 10GBps ethernet. Typical sequential data read/write speed from a lab/office PC (1Gbps ethernet) should be approximately 100MB/s.</li>
-<li>10GBps bandwidth minimizes i/o conflicts from multiple users. Feel free to process/review data on N drive and T drive.</li>
-</ul>
-</li>
-</ul>
-<h2 id="disclaimer">Disclaimer</h2>
-<p>Although the chance of catastrophic server failure is very faint, BAILnas is provided to you with no warranty. UW/BAIL has no responsibility for any data loss. Make <strong>MULTIPLE</strong> backups to your most critical data!!!</p>
-<h1 id="contact">Contact</h1>
-<p>For more information or requests email <a href="szsong@uw.edu">Shaozhen Song</a>.</p></div>
+    <div class="row-fluid">
+      <div id="main-content" class="span12">
+        <h1 id="404-page-not-found" style="text-align: center">404</h1>
+        <p style="text-align: center"><strong>Page not found</strong></p>
+      </div>
+    </div>
+
+
         </div>
 
         <footer class="col-md-12">
@@ -133,11 +85,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "/",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="/js/base.js" defer></script>
+        <script src="/search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -205,8 +157,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.2
-Build Date UTC : 2018-08-23 22:52:05
--->
