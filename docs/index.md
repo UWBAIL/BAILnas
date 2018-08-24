@@ -19,7 +19,7 @@ BAILnas is an Enterprise-grade NAS. It has the following features:
 * **Data recovery:**
 	* All data in the NAS folder is backed-up by snapshots every 6 hours during working hours.
 	* In case of mannual errors such as unintended deletes, any folder can be rollded back to any snapshots within the past two weeks.
-	* Snapshot roll-backs are available upon request. Please contact [system admin](szsong@uw.edu).
+	* Snapshot roll-backs are available upon request. Please contact [system admin](mailto:szsong@uw.edu).
 * High-speed input/output (i/o):
 	* BAILnas is connected to UW network with 10GBps ethernet. Typical sequential data read/write speed from a lab/office PC (1Gbps ethernet) should be approximately 100MB/s.
 	* 10GBps bandwidth minimizes i/o conflicts from multiple users. Feel free to process/review data on N drive and T drive.
@@ -29,4 +29,4 @@ Although the chance of catastrophic server failure is very faint, BAILnas is pro
 
 # Contact
 
-For more information or requests email [Shaozhen Song](szsong@uw.edu).
+For more information or requests email [Shaozhen Song](mailto:szsong@uw.edu).

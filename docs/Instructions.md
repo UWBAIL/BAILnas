@@ -9,10 +9,9 @@ Please follow the instructions below to mount BAILnas as network drive:
 ## Windows
 
 1. Press <kbd>Win</kbd>+<kbd>R</kbd> and type `cmd`, then <kbd>Enter</kbd>
-
 2. In command prompt, type `net use n: \\nas.bail.bioeng.washington.edu\NAS`, then <kbd>Enter</kbd>
-
 3. Input your username and password when prompted. Note that your password may not show while you are typing.
+4. To access BAILnas/Data, use this command instead: `net use t: \\nas.bail.bioeng.washington.edu\Data`
 
 
 **Shortcut for windows**
