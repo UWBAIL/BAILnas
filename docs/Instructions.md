@@ -31,6 +31,10 @@ Please follow the instructions below to mount BAILnas as network drive:
 3. Enter your username and password, then click "OK".
 4. The NAS drive will appear as "NAS" on your desktop and Finder.
 
+## Linux / Unix
+
+If you're a Linux/Unix user you're probably getting bored reading this. :-D
+
 ## Mobile devices
 
 ### Android
