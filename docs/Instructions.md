@@ -33,15 +33,21 @@ Please follow the instructions below to mount BAILnas as network drive:
 
 ## Mobile devices
 
-### Android users
+### Android
 
 Download Solid Explorer (or any alternative remote file explorer),
 
 use the following address for SFTP access: `sftp://nas.bail.bioeng.washington.edu:2221`
 
+### iOS
+
+[FTPManager](https://itunes.apple.com/us/app/ftpmanager-ftp-sftp-client/id525959186?mt=8) Seems to be useful but has not been tested.
+
 ---
 
 # Access from anywhere else
+
+## Windows
 
 Below is the instructions for using a software "WinSCP" to access NAS with SFTP protocol.
 
@@ -70,3 +76,7 @@ Below is the instructions for using a software "WinSCP" to access NAS with SFTP 
 7. Now you have access to NAS folder. To navigate to other folders (e.g. BAILnas/Data), you may need to click on upper level directory in order to refresh.
 
     ![winscp7](/res/winscp/7.PNG)
+
+## Mac OS
+
+Download [FileZilla](https://filezilla-project.org/download.php?platform=osx) and follow similar setup procedure as "WinSCP" in windows.
