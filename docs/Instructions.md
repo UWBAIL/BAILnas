@@ -26,13 +26,13 @@ Please follow the instructions below to mount BAILnas as network drive:
 
 
 1. From Mac OS Finder, press <kbd>⌘</kbd>+<kbd>K</kbd> to bring up the ‘Connect to Server’ window.
-2. Enter the path to the network drive:  `smb:\\nas.bail.bioeng.washington.edu\NAS`.
+2. Enter the path to the network drive:  `smb://nas.bail.bioeng.washington.edu/NAS`.
 3. Enter your username and password, then click "OK".
 4. The NAS drive will appear as "NAS" on your desktop and Finder.
 
 ## Linux / Unix
 
-If you're a Linux/Unix user you're probably getting bored reading this. :-D
+If you're a Linux/Unix user you will most likely get bored reading the instructions. Skipping. :-D
 
 ## Mobile devices
 
@@ -83,3 +83,15 @@ Below is the instructions for using a software "WinSCP" to access NAS with SFTP 
 ## Mac OS
 
 Download [FileZilla](https://filezilla-project.org/download.php?platform=osx) and follow similar setup procedure as "WinSCP" in windows.
+
+type `sftp://nas.bail.bioeng.washington.edu` ,then your user name, password, and port `2221`
+
+then click `quickconnect`.
+
+![winscp7](./res/winscp/fz0.PNG)
+
+For the first time  you connect, you need to accept the key of the host, then click OK.
+
+![winscp7](./res/winscp/fz1.PNG)
+
+Note: By default, FileZilla will terminate connection after 20 seconds of inactivity. You can disable auto-termination in settings by setting the timeout value to "0".

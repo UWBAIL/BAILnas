@@ -1,6 +1,6 @@
 #!/bin/bash
-cd /mnt/BAILnas/NAS
 
+cd /mnt/BAILnas/NAS
 pathLOG=".synclog$(date +%Y%m%d%H%M%S).txt"
 declare -a synclistpub=(
 				"[To All]-0docs"
@@ -41,7 +41,7 @@ then
 		pathSOR=$(echo $i | cut -f1 -d-)
 		pathTAR=$(echo $i | cut -f2 -d-)
 		printf "\n=====Synchronizing $pathSOR to $pathTAR=====\n" | tee -a $pathLOG
-		rsync -rhltDW --no-p --stats "/mnt/BAILnas/rsyncpub/BAILpub/Pub/$pathSOR/" "/mnt/BAILnas/NAS/$pathTAR" | tee -a $pathLOG
+		rsync -rhltDW --no-p --delete --stats "/mnt/BAILnas/rsyncpub/BAILpub/Pub/$pathSOR/" "/mnt/BAILnas/NAS/$pathTAR" | tee -a $pathLOG
 		chown -R szsong:BAIL_member $pathTAR | tee -a $pathLOG
 	done
 fi
@@ -55,7 +55,7 @@ then
 		pathTAR=$(echo $i | cut -f2 -d-)
 		userTAR=$(echo $i | cut -f3 -d-)
 		printf "=====Synchronizing $pathSOR to $pathTAR=====" | tee -a $pathLOG
-		rsync -rhltDW --no-p --stats "/mnt/BAILnas/rsyncpub/BAILpri/$pathSOR.Pri/" "/mnt/BAILnas/NAS/$pathTAR.p/0priv" | tee -a $pathLOG
+		rsync -rhltDW --no-p --delete --stats "/mnt/BAILnas/rsyncpub/BAILpri/$pathSOR.Pri/" "/mnt/BAILnas/NAS/$pathTAR.p/0priv" | tee -a $pathLOG
 		chown -R "$userTAR:wheel" "$pathTAR.p/0priv" | tee -a $pathLOG
 	done
 fi
@@ -69,7 +69,7 @@ then
 		pathTAR=$(echo $i | cut -f2 -d-)
 		userTAR=$(echo $i | cut -f3 -d-)
 		printf "\n=====Synchronizing $pathSOR to $pathTAR=====\n" | tee -a $pathLOG
-		rsync -rhltDW --no-p --stats --exclude "/0priv" --exclude "/archive" "/mnt/BAILnas/rsyncpub/BAILpub/Pub/$pathSOR/" "/mnt/BAILnas/NAS/$pathTAR.p" | tee -a $pathLOG
+		rsync -rhltDW --no-p --delete --stats --exclude "/0priv" --exclude "/archive" "/mnt/BAILnas/rsyncpub/BAILpub/Pub/$pathSOR/" "/mnt/BAILnas/NAS/$pathTAR.p" | tee -a $pathLOG
 		chown -R "$userTAR:BAIL_member" "$pathTAR.p" | tee -a $pathLOG
 		chown -R "$userTAR:wheel" "$pathTAR.p/0priv" | tee -a $pathLOG
 	done
