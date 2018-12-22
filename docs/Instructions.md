@@ -34,18 +34,6 @@ Please follow the instructions below to mount BAILnas as network drive:
 
 If you're a Linux/Unix user you will most likely get bored reading the instructions. Skipping. :-D
 
-## Mobile devices
-
-### Android
-
-Download Solid Explorer (or any alternative remote file explorer),
-
-use the following address for SFTP access: `sftp://nas.bail.bioeng.washington.edu:2221`
-
-### iOS
-
-[FTPManager](https://itunes.apple.com/us/app/ftpmanager-ftp-sftp-client/id525959186?mt=8) Seems to be useful but has not been tested.
-
 ---
 
 # Access from anywhere else
@@ -95,3 +83,23 @@ For the first time  you connect, you need to accept the key of the host, then cl
 ![winscp7](./res/winscp/fz1.PNG)
 
 Note: By default, FileZilla will terminate connection after 20 seconds of inactivity. You can disable auto-termination in settings by setting the timeout value to "0".
+
+
+
+## Mobile devices
+
+### Android
+
+Download Solid Explorer (or any alternative remote file explorer),
+
+use the following configurations:
+
+![android](N:/admin/docs/res/winscp/android.jpg)
+
+### iOS
+
+Use [FTPManager](https://itunes.apple.com/us/app/ftpmanager-ftp-sftp-client/id525959186?mt=8) :
+
+fill in the highlighted fields below. hostname is "nas.bail.bioeng.washington.edu"
+
+![ios](N:/admin/docs/res/winscp/iOS.PNG)

@@ -2,15 +2,17 @@
 
 1. BAILnas is provided to lab members and collaborators intended for work-related use only. 
 
-   	**Do not share your username/password to unauthorized parties.**
+    **Do not share your username/password to unauthorized parties.**
 
-2. Be careful when you operate a shared folder.
+2. **NAS** drive is intended for personal documents. Please use **Data** drive for storing experiment data.
 
-3. Initial quota for each user at BAILnas/NAS/Yourname.p folder is 4TB, and can be elevated upon request.
+3. Be careful when you operate a shared folder.
 
-4. There is no quota limit at BAILnas/Data, but please use the resources mindfully, and clean up your data regularly.
+4. Initial quota for each user at BAILnas/NAS/Yourname.p folder is 4TB, and can be elevated upon request.
 
-5. Data recovery requests can be send to szsong@uw.edu, specifying the folder to recover and time to roll-back to.
+5. There is no quota limit at BAILnas/Data, but please use the resources mindfully, and clean up your data regularly.
+
+6. Data recovery requests can be send to szsong@uw.edu, specifying the folder to recover and time to roll-back to.
 
 # Read/Write permissions
 
