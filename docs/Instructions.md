@@ -94,7 +94,7 @@ Download Solid Explorer (or any alternative remote file explorer),
 
 use the following configurations:
 
-![android](N:/admin/docs/res/winscp/android.jpg)
+![android](./res/winscp/android.jpg)
 
 ### iOS
 
@@ -102,4 +102,4 @@ Use [FTPManager](https://itunes.apple.com/us/app/ftpmanager-ftp-sftp-client/id52
 
 fill in the highlighted fields below. hostname is "nas.bail.bioeng.washington.edu"
 
-![ios](N:/admin/docs/res/winscp/iOS.PNG)
+![ios](./res/winscp/iOS.PNG)
